@@ -4,22 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="basics are done">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/send3D.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/MainFormController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ServerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ServerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/mainForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/ClientUtil/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/ClientUtil/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/LauncherWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/LauncherWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/serverForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/serverForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/IJSE REPOSITORY/networking/Group-Chat-Application/Chat-X/src/main/resources/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +52,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IJSE REPOSITORY\networking\Group-Chat-Application\Chat-X\src\main\resources\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LauncherWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.pesala_x.LauncherWrapper" />
+      <module name="Chat-X" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.pesala_x.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LauncherWrapper" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,11 +87,34 @@
       <updated>1705504084055</updated>
       <workItem from="1705504085159" duration="3000" />
       <workItem from="1705595148012" duration="4729000" />
+      <workItem from="1705730436331" duration="2862000" />
     </task>
+    <task id="LOCAL-00001" summary="Ui are getting ready...">
+      <option name="closed" value="true" />
+      <created>1705730491796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705730491797</updated>
+    </task>
+    <task id="LOCAL-00002" summary="basics are done">
+      <option name="closed" value="true" />
+      <created>1705731499713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705731499713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ui are getting ready..." />
+    <MESSAGE value="basics are done" />
+    <option name="LAST_COMMIT_MESSAGE" value="basics are done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
