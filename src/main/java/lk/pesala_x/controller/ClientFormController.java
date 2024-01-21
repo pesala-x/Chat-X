@@ -82,84 +82,29 @@ public class ClientFormController implements Initializable {
     public String image;
     public ClientFormController(){
     }
-
-//    @FXML
-//    void CamerabtnonAction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void emojibtnonAction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void facewithtearsjoyonAction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void gringbigeyesOnAction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void gringfacesmileonAction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void rollingfacewithtearsjoyonAction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void savoringfoodonAction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void sendbtnonAction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void smillyonAction(ActionEvent event) {
-//
-//    }
-//
     @FXML
     void typetxtOnActon(ActionEvent event) throws IOException {
         sendbtnonAction(event);
     }
-//
-//    @FXML
-//    void upsidedownonaction(ActionEvent event) {
-//
-//    }
-//
-//    @FXML
-//    void vinkifaceonAction(ActionEvent event) {
-//
-//    }
-public void sendbtnonAction(ActionEvent actionEvent) throws IOException {
-    printName();
-    new Thread(() -> {
-        String reply;
-        try {
-            reply = typetxt.getText();
-            if(reply!=null) {
-                dataOutputStream.writeUTF(reply);
-                dataOutputStream.flush();
-                appendMessageMe("Me :"+ reply, "-fx-border-color: #11D2E5; -fx-background-color: #34E9FA; -fx-background-radius: 20px 0px 20px 20px; -fx-border-radius: 20px 0px 20px 20px;");
-            }
-            typetxt.clear();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
-    }).start();
-}
+    public void sendbtnonAction(ActionEvent actionEvent) throws IOException {
+        printName();
+        new Thread(() -> {
+            String reply;
+            try {
+                reply = typetxt.getText();
+                if(reply!=null) {
+                    dataOutputStream.writeUTF(reply);
+                    dataOutputStream.flush();
+                    appendMessageMe("Me :"+ reply, "-fx-border-color: #11D2E5; -fx-background-color: #34E9FA; -fx-background-radius: 20px 0px 20px 20px; -fx-border-radius: 20px 0px 20px 20px;");
+                }
+                typetxt.clear();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }).start();
+    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

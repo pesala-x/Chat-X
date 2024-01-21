@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="ClientHandler util package done...">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Css/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/attach-filenew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/blowingkissnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/cameranew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/catnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/chatbacknew.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/facewithtearsjoynew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/gringbigeyesnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/gringfacesmilenew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/gringnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kissnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/rollingthefloornew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/savoringfoodnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sendnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/slightlysmilingnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/smileheartnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/smilenew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/smilewithhearteyesnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/starstrunknew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/telephonenew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/upsidedownnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/video-cameranew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/winkingfacenew.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/ClientUtil/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/ClientUtil/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ServerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ServerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/serverForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/serverForm.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application All features are Done..." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +85,7 @@
       <workItem from="1705807906539" duration="83000" />
       <workItem from="1705809037626" duration="123000" />
       <workItem from="1705810783555" duration="135000" />
+      <workItem from="1705812133011" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="Ui are getting ready...">
       <option name="closed" value="true" />
@@ -156,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705757857230</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Chat application All features are Done...">
+      <option name="closed" value="true" />
+      <created>1705812205443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705812205443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +146,8 @@
     <MESSAGE value="basics are done" />
     <MESSAGE value="Ui all are done..." />
     <MESSAGE value="ClientHandler util package done..." />
-    <option name="LAST_COMMIT_MESSAGE" value="ClientHandler util package done..." />
+    <MESSAGE value="Chat application All features are Done..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat application All features are Done..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
