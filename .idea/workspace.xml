@@ -4,10 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Ui all are done...">
+    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="ClientHandler util package done...">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Css/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/attach-filenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/blowingkissnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/cameranew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/catnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/chatbacknew.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/facewithtearsjoynew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/gringbigeyesnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/gringfacesmilenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/gringnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kissnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/rollingthefloornew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/savoringfoodnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sendnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/slightlysmilingnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/smileheartnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/smilenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/smilewithhearteyesnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/starstrunknew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/telephonenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/upsidedownnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/video-cameranew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/winkingfacenew.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/ClientUtil/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/ClientUtil/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ServerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ServerFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/serverForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/serverForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +60,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/IJSE REPOSITORY/networking/Group-Chat-Application/Chat-X/src/main/resources/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/IJSE REPOSITORY/networking/Group-Chat-Application/Chat-X/src/main/java/lk/pesala-x/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IJSE REPOSITORY/networking/Group-Chat-Application&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/IJSE REPOSITORY/networking/Group-Chat-Application/Chat-X/src/main/java/lk/pesala-x/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IJSE REPOSITORY\networking\Group-Chat-Application\Chat-X\src\main\resources" />
       <recent name="C:\IJSE REPOSITORY\networking\Group-Chat-Application\Chat-X\src\main\resources\assets" />
     </key>
   </component>
@@ -84,7 +111,10 @@
       <updated>1705504084055</updated>
       <workItem from="1705504085159" duration="3000" />
       <workItem from="1705595148012" duration="4729000" />
-      <workItem from="1705730436331" duration="6916000" />
+      <workItem from="1705730436331" duration="14445000" />
+      <workItem from="1705807906539" duration="83000" />
+      <workItem from="1705809037626" duration="123000" />
+      <workItem from="1705810783555" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="Ui are getting ready...">
       <option name="closed" value="true" />
@@ -118,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705737388250</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ClientHandler util package done...">
+      <option name="closed" value="true" />
+      <created>1705757857230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705757857230</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +166,8 @@
     <MESSAGE value="Ui are getting ready..." />
     <MESSAGE value="basics are done" />
     <MESSAGE value="Ui all are done..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ui all are done..." />
+    <MESSAGE value="ClientHandler util package done..." />
+    <option name="LAST_COMMIT_MESSAGE" value="ClientHandler util package done..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

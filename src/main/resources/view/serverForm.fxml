@@ -31,7 +31,7 @@
       </ProgressBar>
       <Line endX="100.0" layoutX="145.0" layoutY="32.0" startX="-100.0" />
       <Line endX="100.0" layoutX="458.0" layoutY="33.0" startX="-100.0" />
-      <TextField fx:id="typetxt" layoutX="169.0" layoutY="164.0" prefHeight="29.0" prefWidth="222.0" promptText="Enter Your Name Here..." style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15;" />
+      <TextField fx:id="typetxt" layoutX="169.0" layoutY="164.0" onAction="#typetxtOnActon" prefHeight="29.0" prefWidth="222.0" promptText="Enter Your Name Here..." style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15;" />
       <Button fx:id="sendbtn" layoutX="402.0" layoutY="166.0" mnemonicParsing="false" onAction="#sendbtnonAction" prefHeight="19.0" prefWidth="54.0" style="-fx-background-radius: 10px; -fx-background-color: #0096c7;" text="Add" textFill="WHITE">
          <font>
             <Font name="System Bold Italic" size="12.0" />
