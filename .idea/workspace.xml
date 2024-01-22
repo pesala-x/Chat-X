@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application All features are Done..." />
+    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application All features are Done">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,21 +33,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IJSE REPOSITORY/networking/Group-Chat-Application&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/IJSE REPOSITORY/networking/Group-Chat-Application/Chat-X/src/main/java/lk/pesala-x/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LauncherWrapper.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/IJSE REPOSITORY/networking/Group-Chat-Application/Chat-X2/Chat-X2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/IJSE REPOSITORY/networking/Group-Chat-Application/Chat-X/src/main/java/lk/pesala-x/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IJSE REPOSITORY\networking\Group-Chat-Application\Chat-X\src\main\resources" />
@@ -71,6 +77,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-f644763e9732-4a89cc43" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,6 +99,9 @@
       <workItem from="1705809037626" duration="123000" />
       <workItem from="1705810783555" duration="135000" />
       <workItem from="1705812133011" duration="287000" />
+      <workItem from="1705848007586" duration="2014000" />
+      <workItem from="1705899021704" duration="470000" />
+      <workItem from="1705899643178" duration="1703000" />
     </task>
     <task id="LOCAL-00001" summary="Ui are getting ready...">
       <option name="closed" value="true" />
@@ -135,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705812205443</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Chat application All features are Done">
+      <option name="closed" value="true" />
+      <created>1705853209382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705853209382</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +171,8 @@
     <MESSAGE value="Ui all are done..." />
     <MESSAGE value="ClientHandler util package done..." />
     <MESSAGE value="Chat application All features are Done..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat application All features are Done..." />
+    <MESSAGE value="Chat application All features are Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat application All features are Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
