@@ -360,8 +360,4 @@ public class ClientFormController implements Initializable {
         name = namtext.getText();
     }
 
-    private void printName(String name){
-        nam = name;
-    }
-
 }
