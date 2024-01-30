@@ -290,9 +290,7 @@ public class ClientFormController implements Initializable {
         typetxt.appendText(convertEmojiCode("U+1f602"));
     }
 
-    public void rollingfacewithtearsjoyonAction(ActionEvent actionEvent) {
-        typetxt.appendText(convertEmojiCode("U+1f923"));
-    }
+    public void rollingfacewithtearsjoyonAction(ActionEvent actionEvent) { typetxt.appendText(convertEmojiCode("U+1f923")); }
 
     public void vinkifaceonAction(ActionEvent actionEvent) {
         typetxt.appendText(convertEmojiCode("U+1f609"));
@@ -328,6 +326,7 @@ public class ClientFormController implements Initializable {
         }
     }
 
+//371*549
     private void displayFileInScrollPane(String file) {
         Platform.runLater(() -> {
             try {

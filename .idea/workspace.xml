@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application is completed..." />
+    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application is completed...">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/bacground Wallpaper.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +29,16 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2b5TkLVhgFDT4DWqHcjwyLci3Qa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Application.LauncherWrapper.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -39,7 +46,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IJSE REPOSITORY/networking/Group-Chat-Application/Chat-X2/Chat-X2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/AppData/Local/SceneBuilder/SceneBuilder.exe&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -108,7 +115,15 @@
       <workItem from="1706013519749" duration="564000" />
       <workItem from="1706019616277" duration="449000" />
       <workItem from="1706025583086" duration="7000" />
-      <workItem from="1706111717330" duration="364000" />
+      <workItem from="1706111717330" duration="1184000" />
+      <workItem from="1706190865010" duration="92000" />
+      <workItem from="1706191150594" duration="456000" />
+      <workItem from="1706191632839" duration="594000" />
+      <workItem from="1706278380935" duration="147000" />
+      <workItem from="1706284841442" duration="2353000" />
+      <workItem from="1706337776024" duration="94000" />
+      <workItem from="1706365006810" duration="1061000" />
+      <workItem from="1706544098762" duration="2509000" />
     </task>
     <task id="LOCAL-00001" summary="Ui are getting ready...">
       <option name="closed" value="true" />
@@ -182,13 +197,22 @@
       <option name="project" value="LOCAL" />
       <updated>1706112061051</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Chat application is completed...">
+      <option name="closed" value="true" />
+      <created>1706112148122</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706112148122</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ui are getting ready..." />
     <MESSAGE value="basics are done" />
     <MESSAGE value="Ui all are done..." />
