@@ -251,9 +251,9 @@
                            <children>
                               <Button mnemonicParsing="false" onAction="#HeartEyesOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/smilewithhearteyesnew.png" />
+                                          <Image url="@../assets/smilewithhearteyesnew1.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
@@ -289,38 +289,38 @@
                         </HBox>
                         <HBox layoutX="10.0" layoutY="152.0" prefHeight="41.0" prefWidth="231.0">
                            <children>
-                              <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button mnemonicParsing="false" onAction="#GrinningCatFacewithSmilingEyesOnActon" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/gringbigeyesnew.png" />
+                                          <Image url="@../assets/1f639.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#SmilingCatFacewithHeartEyesOnActon" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/gringfacesmilenew.png" />
+                                          <Image url="@../assets/1f63b.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="65.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="65.0" layoutY="10.0" mnemonicParsing="false" onAction="#CatFacewithWrySmileOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/slightlysmilingnew.png" />
+                                          <Image url="@../assets/1f63c.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" onAction="#KissingCatFacewithClosedEyesOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/upsidedownnew.png" />
+                                          <Image url="@../assets/1f63d.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
@@ -329,38 +329,38 @@
                         </HBox>
                         <HBox layoutX="10.0" layoutY="199.0" prefHeight="41.0" prefWidth="231.0">
                            <children>
-                              <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button mnemonicParsing="false" onAction="#ThumbsUpOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/gringbigeyesnew.png" />
+                                          <Image url="@../assets/1f44d.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#MiddleFingerOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/gringfacesmilenew.png" />
+                                          <Image url="@../assets/1f595.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="65.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="65.0" layoutY="10.0" mnemonicParsing="false" onAction="#FoldedHandsOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/slightlysmilingnew.png" />
+                                          <Image url="@../assets/1f64f.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" onAction="#ThumbsDownOnActon" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/upsidedownnew.png" />
+                                          <Image url="@../assets/1f44e.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
