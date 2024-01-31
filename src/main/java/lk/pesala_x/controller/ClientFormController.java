@@ -271,9 +271,10 @@ public class ClientFormController implements Initializable {
     }
 
     public void gringbigeyesOnAction(ActionEvent actionEvent) {
-        typetxt.appendText(convertEmojiCode("U+1f603"));
+        String emojiCode = "U+1f603";
+        System.out.println("Button clicked. Emoji code: " + emojiCode);
+        typetxt.appendText(convertEmojiCode(emojiCode));
     }
-
     public void gringfacesmileonAction(ActionEvent actionEvent) {
         typetxt.appendText(convertEmojiCode("U+1f604"));
     }
@@ -300,12 +301,95 @@ public class ClientFormController implements Initializable {
         typetxt.appendText(convertEmojiCode("U+1f60B"));
     }
 
+    public void StarStruckOnAction(ActionEvent actionEvent) {
+        typetxt.appendText(convertEmojiCode("U+1F60D"));
+    }
+
+    public void KissingFaceOnAction(ActionEvent actionEvent) {
+        typetxt.appendText(convertEmojiCode("U+1F617"));
+    }
+
+    public void FaceBlowingaKissOnAction(ActionEvent actionEvent) {
+        typetxt.appendText(convertEmojiCode("U+1F618"));
+    }
+
+    public void SmilingFacewithHeartsOnAction(ActionEvent actionEvent) {
+        typetxt.appendText(convertEmojiCode("U+1F970"));
+    }
+    public void HeartEyesOnAction(ActionEvent actionEvent) {
+        typetxt.appendText(convertEmojiCode("U+1F970"));
+    }
+
+    public void FaceScreaminginFearOnAction(ActionEvent actionEvent) {
+        typetxt.appendText(convertEmojiCode("U+1F631"));
+    }
+
+    public void SmirkingFaceOnAction(ActionEvent actionEvent) {
+        typetxt.appendText(convertEmojiCode("U+1F60F"));
+    }
+
+    public void UnamusedFaceOnAction(ActionEvent actionEvent) {
+        typetxt.appendText(convertEmojiCode("U+1F612"));
+    }
+
+/*
+😀 - Grinning Face (U+1F600)
+😃 - Grinning Face with Big Eyes (U+1F603)
+😄 - Grinning Face with Smiling Eyes (U+1F604)
+😁 - Beaming Face with Smiling Eyes (U+1F601)
+😆 - Grinning Squinting Face (U+1F606)
+😅 - Grinning Face with Sweat (U+1F605)
+😂 - Face with Tears of Joy (U+1F602)
+🤣 - Rolling on the Floor Laughing (U+1F923)
+😊 - Smiling Face with Smiling Eyes (U+1F60A)
+😇 - Smiling Face with Halo (U+1F607)
+😉 - Winking Face (U+1F609)
+😌 - Relieved Face (U+1F60C)
+😍 - Heart Eyes (U+1F60D)
+😘 - Face Blowing a Kiss (U+1F618)
+😗 - Kissing Face (U+1F617)
+😙 - Kissing Face with Smiling Eyes (U+1F619)
+😚 - Kissing Face with Closed Eyes (U+1F61A)
+☺️ - Smiling Face (U+263A)
+🙂 - Slightly Smiling Face (U+1F642)
+🙃 - Upside-Down Face (U+1F643)
+😋 - Face Savoring Food (U+1F60B)
+😛 - Face with Tongue (U+1F61B)
+😜 - Winking Face with Tongue (U+1F61C)
+🤪 - Zany Face (U+1F92A)
+😝 - Squinting Face with Tongue (U+1F61D)
+🤑 - Money-Mouth Face (U+1F911)
+🤗 - Hugging Face (U+1F917)
+🤔 - Thinking Face (U+1F914)
+🤐 - Zipper-Mouth Face (U+1F910)
+😐 - Neutral Face (U+1F610)
+😑 - Expressionless Face (U+1F611)
+😶 - Face Without Mouth (U+1F636)
+😏 - Smirking Face (U+1F60F)
+😒 - Unamused Face (U+1F612)
+🙄 - Face with Rolling Eyes (U+1F644)
+😬 - Grimacing Face (U+1F62C)
+😮 - Face with Open Mouth (U+1F62E)
+😯 - Hushed Face (U+1F62F)
+😧 - Anguished Face (U+1F627)
+😨 - Fearful Face (U+1F628)
+😰 - Anxious Face with Sweat (U+1F630)
+😱 - Face Screaming in Fear (U+1F631)
+😳 - Flushed Face (U+1F633)
+😵 - Dizzy Face (U+1F635)
+😡 - Pouting Face (U+1F621)
+😠 - Angry Face (U+1F620)
+🤬 - Face with Symbols on Mouth (U+1F92C)
+😷 - Face with Medical Mask (U+1F637)
+🤒 - Face with Thermometer (U+1F912)
+🤕 - Face with Head-Bandage (U+1F915)
+*/
+
     private void openPane() {
         TranslateTransition transition = new TranslateTransition(Duration.seconds(0.5), pane);
         transition.setToY(0);
         transition.play();
     }
-
     private void closePane() {
         TranslateTransition transition = new TranslateTransition(Duration.seconds(0.5), pane);
         transition.setToY(paneHeight);
@@ -327,6 +411,7 @@ public class ClientFormController implements Initializable {
     }
 
 //371*549
+
     private void displayFileInScrollPane(String file) {
         Platform.runLater(() -> {
             try {
@@ -358,5 +443,4 @@ public class ClientFormController implements Initializable {
     private void printName(){
         name = namtext.getText();
     }
-
 }

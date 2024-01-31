@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application is completed...">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/bacground Wallpaper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application Imoji Added...">
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +123,7 @@
       <workItem from="1706337776024" duration="94000" />
       <workItem from="1706365006810" duration="1061000" />
       <workItem from="1706544098762" duration="2509000" />
+      <workItem from="1706636827935" duration="3831000" />
     </task>
     <task id="LOCAL-00001" summary="Ui are getting ready...">
       <option name="closed" value="true" />
@@ -205,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706112148122</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Chat application Imoji Added...">
+      <option name="closed" value="true" />
+      <created>1706637240547</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706637240547</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +229,8 @@
     <MESSAGE value="Chat application All features are Done" />
     <MESSAGE value="Chat application All features are Updated.." />
     <MESSAGE value="Chat application is completed..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat application is completed..." />
+    <MESSAGE value="Chat application Imoji Added..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat application Imoji Added..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

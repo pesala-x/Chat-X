@@ -118,8 +118,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <ScrollPane fx:id="pane" layoutX="11.0" layoutY="374.0" prefHeight="289.0" prefWidth="231.0" style="-fx-background-color: #737171; -fx-hbar-policy: NEVER; -fx-vbar-policy: NEVER; -fx-background-radius: 20px;"
-                  stylesheets="@../Css/Style.css" visible="false">
+      <ScrollPane fx:id="pane" layoutX="11.0" layoutY="374.0" prefHeight="289.0" prefWidth="231.0" style="-fx-background-color: #737171; -fx-hbar-policy: NEVER; -fx-vbar-policy: NEVER; -fx-background-radius: 20px;" stylesheets="@../Css/Style.css" visible="false">
          <content>
             <AnchorPane minHeight="0.0" minWidth="0.0" opacity="0.86" prefHeight="289.0" prefWidth="231.0" style="-fx-background-color: #595858; -fx-background-radius: 20px;">
                <children>
@@ -207,7 +206,7 @@
                         </HBox>
                         <HBox layoutX="10.0" layoutY="57.0" prefHeight="41.0" prefWidth="231.0">
                            <children>
-                              <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button mnemonicParsing="false" onAction="#StarStruckOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
                                     <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -216,7 +215,7 @@
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#KissingFaceOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
                                     <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -225,7 +224,7 @@
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="65.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="65.0" layoutY="10.0" mnemonicParsing="false" onAction="#FaceBlowingaKissOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
                                     <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -234,7 +233,7 @@
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" onAction="#SmilingFacewithHeartsOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
                                     <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -242,12 +241,15 @@
                                        </image>
                                     </ImageView>
                                  </graphic>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
                               </Button>
                            </children>
                         </HBox>
                         <HBox layoutX="10.0" layoutY="104.0" prefHeight="41.0" prefWidth="231.0">
                            <children>
-                              <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button mnemonicParsing="false" onAction="#HeartEyesOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
                                     <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -256,29 +258,29 @@
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#FaceScreaminginFearOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/gringfacesmilenew.png" />
+                                          <Image url="@../assets/1f631.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="65.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="65.0" layoutY="10.0" mnemonicParsing="false" onAction="#SmirkingFaceOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/slightlysmilingnew.png" />
+                                          <Image url="@../assets/1f614.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </Button>
-                              <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
+                              <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" onAction="#UnamusedFaceOnAction" prefHeight="44.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="hover-button">
                                  <graphic>
-                                    <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="39.0" fitWidth="39.0">
                                        <image>
-                                          <Image url="@../assets/upsidedownnew.png" />
+                                          <Image url="@../assets/1f612.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
@@ -368,6 +370,9 @@
                      </children>
                   </VBox>
                </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </AnchorPane>
          </content>
       </ScrollPane>
