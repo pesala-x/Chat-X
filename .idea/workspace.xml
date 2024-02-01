@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application Imoji Added...">
+    <list default="true" id="4beba279-154e-4029-bbfc-21c3b1129b73" name="Changes" comment="Chat application fully completed...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/pesala_x/controller/ClientFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/clientForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,9 @@
       <workItem from="1706337776024" duration="94000" />
       <workItem from="1706365006810" duration="1061000" />
       <workItem from="1706544098762" duration="2509000" />
-      <workItem from="1706636827935" duration="6581000" />
+      <workItem from="1706636827935" duration="7155000" />
+      <workItem from="1706705464153" duration="658000" />
+      <workItem from="1706802767016" duration="1783000" />
     </task>
     <task id="LOCAL-00001" summary="Ui are getting ready...">
       <option name="closed" value="true" />
@@ -222,11 +223,30 @@
       <option name="project" value="LOCAL" />
       <updated>1706678911949</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Chat application fully completed...">
+      <option name="closed" value="true" />
+      <created>1706683442824</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706683442824</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -239,7 +259,8 @@
     <MESSAGE value="Chat application All features are Updated.." />
     <MESSAGE value="Chat application is completed..." />
     <MESSAGE value="Chat application Imoji Added..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat application Imoji Added..." />
+    <MESSAGE value="Chat application fully completed..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat application fully completed..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
